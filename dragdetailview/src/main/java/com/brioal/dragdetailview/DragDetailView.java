@@ -322,9 +322,9 @@ public class DragDetailView extends LinearLayout {
             mChildHasScrolled = true;
             return true;
         }
-        if (view instanceof ViewPager) {
-            return canViewPagerScrollVertically((ViewPager) view, offSet, ev);
-        }
+        //if (view instanceof ViewPager) {
+         //   return canViewPagerScrollVertically((ViewPager) view, offSet, ev);
+       // }
         if (view instanceof ViewGroup) {
             ViewGroup vGroup = (ViewGroup) view;
             for (int i = 0; i < vGroup.getChildCount(); i++) {
